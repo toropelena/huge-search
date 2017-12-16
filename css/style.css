@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+html, body{
+	height: 100%;        
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background: rgba(118,117,128,0.03);
+	text-align: center;
+	color: #c2c2c2;
+}
+
+main {
+	margin: 50px auto;
+	width: 80%;
+	
+}
+form {
+	position: relative;
+	margin: 40px 0;
+	text-align: left;
+}
+
+input {
+	border: none;
+}
+
+input[type="text"] {
+	font-size: 60px;
+	font-weight: bold;
+	background: rgba(250,250,250, .0);
+	width: 100%;
+	padding: 10px 15px;
+	color: #000;
+
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+	color: #ec5a62;
+	outline: none;
+}
+
+input[type="submit"] {
+	background: url('../img/magnifier.svg');
+	position: absolute;
+	top: 10px;
+	right: 25px;	
+	width: 70px;
+	height: 70px;
+	
+}
+
+::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+::-moz-placeholder {
+	color: #c2c2c2;
+}
+::-moz-placeholder {
+	color: #c2c2c2;
+}
+:-ms-input-placeholder {
+	color: #c2c2c2;
+}
+
+
+
+.list {
+	display: inline-block;
+	font-size: 0;
+	padding: 20px 15px;
+	width: 33%;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: left;
+	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 16px;	
+}
+
+li {
+	background-color: rgba(118,117,128,0.05);
+	padding: 15px;
+	border-radius: 5px;
+	margin: 5px 0;
+}
+
+span {
+	margin-left: 15px;	
+}
+
+img {
+	vertical-align: middle;
+}
+
+li a {
+	text-decoration: none;
+	color: #c2c2c2;
+}
+li:hover,
+li:focus,
+li:active {
+	background-color: rgba(118,117,128,0.3);
+}
+
+li:hover a,
+li:focus a,
+li:active a {
+	
+	color: #ec5a62;
+}
+
+.people img {	
+	border-radius: 50%;
+}
