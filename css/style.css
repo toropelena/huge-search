@@ -12,7 +12,6 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	background: rgba(118,117,128,0.03);
-	text-align: center;
 	color: #c2c2c2;
 }
 
@@ -24,7 +23,6 @@ main {
 form {
 	position: relative;
 	margin: 40px 0;
-	text-align: left;
 }
 
 input {
@@ -70,48 +68,66 @@ input[type="submit"] {
 	color: #c2c2c2;
 }
 
-
+.for_list {
+	font-size: 0;
+}
 
 .list {
-	display: inline-block;
-	font-size: 0;
+	display: inline-block;	
 	padding: 20px 15px;
-	width: 33%;
+	width: 33.3%;
+	vertical-align: top;
 }
 
 h4 {
-	font-size: 20px;
-	text-align: left;
-	
+	font-size: 20px;	
 }
 
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: left;
 	font-size: 16px;	
 }
 
 li {
-	background-color: rgba(118,117,128,0.05);
-	padding: 15px;
+	background-color: rgba(118,117,128,0.05);	
 	border-radius: 5px;
 	margin: 5px 0;
+	height: 85px;
+	/* overflow: hidden;  */
+}
+
+span, img {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 span {
-	margin-left: 15px;	
-}
+	padding-left: 15px;
+	font-size: 16px;
+	width: 80%;	
+	height: 55px;
+	overflow: hidden;
+	/* position: absolute;
+	top: 50%;
+	margin-top: -0.625em; */
 
-img {
-	vertical-align: middle;
 }
 
 li a {
 	text-decoration: none;
 	color: #c2c2c2;
+	display: block;
+	height: 100%;
+	padding: 15px;
+	font-size: 0;
+	/* position: relative; */
+	/* height: 85px;
+	overflow: hidden; */
 }
+
+
 li:hover,
 li:focus,
 li:active {
@@ -127,4 +143,11 @@ li:active a {
 
 .people img {	
 	border-radius: 50%;
+}
+
+p {
+	display: table-cell;
+	vertical-align: middle;
+	height: 55px;
+
 }
